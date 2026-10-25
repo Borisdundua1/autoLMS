@@ -1,0 +1,6 @@
+# ignore __pycache__ folder
+__pycache__/
+
+# ignore my private data inside my_browser_profile folder, but don't ignore the folder itself
+my_browser_profile/*
+!my_browser_profile/.gitkeep
